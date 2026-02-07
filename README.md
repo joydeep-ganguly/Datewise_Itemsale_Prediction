@@ -22,23 +22,25 @@ The training process is detailed in the Jupyter notebook [`PipelineItemDatewise.
 
 ## Project Structure
 
+````
 .
-├──application.py # Flask application
-├──PipelineItemDatewise.ipynb # Jupyter notebook for model training
-├── templates/ # HTML templates for the web interface
+├── application.py               # Flask application
+├── PipelineItemDatewise.ipynb   # Jupyter notebook for model training
+├── templates/                   # HTML templates for the web interface
 │ ├── file.html
 │ ├── index.html
 │ ├── input.html
 │ ├── single.html
 │ ├── uploadcsv.html
-├── uploads/ # Directory for uploaded CSV files
-├── item_model.pkl # Trained model file
-├── item_encoder_area.pkl # Area encoder
-├── item_encoder_item.pkl # Item code encoder
-├── item_scaler.pkl # Scaler for feature normalization
-├── festivals.pkl # Festival data
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── uploads/                     # Directory for uploaded CSV files
+├── item_model.pkl               # Trained model file
+├── item_encoder_area.pkl        # Area encoder
+├── item_encoder_item.pkl        # Item code encoder
+├── item_scaler.pkl              # Scaler for feature normalization
+├── festivals.pkl                # Festival data
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
+```
 
 ## Installation
 
@@ -48,7 +50,7 @@ The training process is detailed in the Jupyter notebook [`PipelineItemDatewise.
    git clone https://github.com/your-username/item-sale-prediction.git
    cd item-sale-prediction
 
-   ```
+````
 
 2. Install the required dependencies:
 
