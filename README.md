@@ -1,4 +1,3 @@
-```md
 # Item Sale Prediction App
 
 This is a Flask-based web application that predicts the sale of a particular item based on the provided date and area. The app uses a trained machine learning model to make predictions and provides both individual and bulk prediction options.
@@ -22,7 +21,6 @@ The machine learning model used in this application is a neural network built us
 The training process is detailed in the Jupyter notebook [`PipelineItemDatewise.ipynb`](PipelineItemDatewise.ipynb).
 
 ## Project Structure
-```
 
 .
 ├──application.py # Flask application
@@ -42,15 +40,15 @@ The training process is detailed in the Jupyter notebook [`PipelineItemDatewise.
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-````
-
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/item-sale-prediction.git
    cd item-sale-prediction
-````
+
+   ```
 
 2. Install the required dependencies:
 
@@ -145,6 +143,5 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 **Contact**: joydeepganguly32@gmail.com
 
 ```
-
 This README provides a comprehensive overview of the project, including its purpose, features, installation steps, usage instructions, and model training details.
 ```
